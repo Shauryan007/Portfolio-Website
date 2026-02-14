@@ -10,7 +10,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center align whole page */
+    align-items: center;
 }
 
 header {
@@ -34,8 +34,8 @@ header p {
 section {
     width: 70%;
     max-width: 900px;
-    padding: 30px 0; /* Reduced extra spacing */
-    text-align: center; /* Center section content */
+    padding: 30px 0; 
+    text-align: center;
 }
 
 h2 {
@@ -48,9 +48,9 @@ h2 {
 
 .card {
     background-color: #112240;
-    padding: 15px; /* Reduced box padding */
+    padding: 15px; 
     border-radius: 8px;
-    margin-bottom: 15px; /* Reduced spacing between boxes */
+    margin-bottom: 15px;
     box-shadow: 0 0 12px rgba(0, 191, 255, 0.3);
     transition: transform 0.3s;
 }
@@ -65,7 +65,7 @@ ul {
 }
 
 ul li {
-    margin: 8px 0; /* Reduced list spacing */
+    margin: 8px 0;
 }
 
 .contact-info {
@@ -75,14 +75,14 @@ ul li {
 
 form {
     background-color: #112240;
-    padding: 15px; /* Reduced padding */
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 12px rgba(0, 191, 255, 0.3);
 }
 
 input {
     width: 100%;
-    padding: 8px; /* Reduced input padding */
+    padding: 8px;
     margin: 8px 0;
     border: none;
     border-radius: 5px;
@@ -108,4 +108,5 @@ footer {
     padding: 15px;
     background-color: #0a192f;
     margin-top: 20px;
+
 }
